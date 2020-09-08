@@ -36,7 +36,7 @@ function btnClick() {
     if(btnDiv.style.top != "10%"){
         buttonMid = false;
         
-        btnDiv.style.top="10%";
+        btnDiv.style.top="15%";
         prompt.style.marginBottom = "-30px";
         prompt.style.opacity='0';
       
@@ -51,7 +51,7 @@ function btnClick() {
     
     //Fade Out Quote, Details etc
     fullDisp.style.opacity = '0';
-    setTimeout(randomQuote, 500);
+    setTimeout(randomQuote, 1000);
 }
 
 
@@ -707,7 +707,7 @@ function randomQuote(){
     if(randNum == 31){
                 
         //Quote
-        quote.innerHTML = "Time is the enemy of the privileged few. Cost is the enemy of the masses.";
+        quote.innerHTML = "Time is the enemy of the privileged few. Cost is the enemy of the masses.";
         
         //Name
         name.innerHTML = "Wendover Productions";
