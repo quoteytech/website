@@ -51,7 +51,7 @@ function btnClick() {
     
     //Fade Out Quote, Details etc
     fullDisp.style.opacity = '0';
-    setTimeout(randomQuote, 1000);
+    setTimeout(randomQuote, 700);
 }
 
 
@@ -59,11 +59,11 @@ function quoteIn(){
     
     var fullDisp = document.getElementById("dispDiv")
     var details = document.getElementById("details");
-    var pic = document.getElementById("pic");
+    var imgDiv = document.getElementById("imgDiv");
     
     fullDisp.style.opacity = '1';
-    details.style.margin = '0';
-    pic.style.margin = '0';
+    details.style.right= '40%';
+    imgDiv.style.left = '60%';
 }
 
 
@@ -75,7 +75,6 @@ function randomQuote(){
     var imgLink = document.getElementById("imgLink");
     
     var photo = document.getElementById("pic");
-    photo.src = "quotes/images/people/default.png";
     
     //RANDOM num from 0 to __
     var randNum = Math.floor(Math.random() * 39); 
@@ -574,7 +573,7 @@ function randomQuote(){
     if(randNum == 24){
                 
         //Quote
-        quote.innerHTML = "Even if you’re on the right track, you’ll get run over if you just sit there.";
+        quote.innerHTML = "Even if you're on the right track, you'll get run over if you just sit there.";
         
         //Name
         name.innerHTML = "Will Rogers";

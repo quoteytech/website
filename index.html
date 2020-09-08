@@ -19,6 +19,7 @@
     <body onload="randPrompt();">
         
         
+        <!--Banner-->
         <div class="banner">
             
             <div class="bannerText">Quotey</div>
@@ -27,25 +28,47 @@
         </div>
         
         
+        <!--Display Div-->
         <div class="dispDiv" id="dispDiv">
             
             <div class="quoteDiv"><p id="quote"></p></div>
             
-            <div class="details" id="details">
+            
+            
+            <div class="speaker">
                 
-                <a class="name" id="name" target="_blank" href=""></a>
-                <p id="info"></p>
+                <!--Details-->
+                <div class="details" id="details">
+                
+                    <a class="name" id="name" target="_blank" href=""></a>
+                    <p id="info"></p>
+                
+                </div>
+            
+            
+                <!--ImageDiv-->            
+                <div class="imgDiv" id="imgDiv">
+                    <a id="imgLink" target="_blank" href="">
+                    
+                        
+                        <img src="" class="portrait" id="pic">
+                    
+                    </a>
+                </div>
                 
             </div>
             
-            <a id="imgLink" target="_blank" href="">
-                <img src="" class="portrait" id="pic">
-            </a>
+            
+            
+            
+
+            
             
             
         </div>
 
-
+        
+        <!--Button-->
         <div class="btnDiv" id="btnDiv">
             <h1 id="prompt" class="prompt">Looking for inspiration?</h1>
             <button id="qBtn" class="btn" onclick="btnClick();">
@@ -54,6 +77,7 @@
         </div>
 
         
+        <!--Footer-->
         <div class="footer">
             <div class="footerInfo">
                 
