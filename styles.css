@@ -13,14 +13,26 @@ body{
     position: absolute;
     top: 0;
     
-    color: white;
-    font-size: 30px;
-    font-family: Spartan;
+}
+
+.banner img{
+    position: absolute;
+    height: 35px;
+    margin-top: 7px;
+    right: 5%;
+    
+    display: inline;
 }
 
 .bannerText{
+    display: inline-block;
+    margin-top: 13px;
     margin-left: 5%;
-    margin-top: 7px;
+    vertical-align: top;
+    
+    color: white;
+    font-size: 24px;
+    font-family: Spartan;
 }
 
 .bottom{
