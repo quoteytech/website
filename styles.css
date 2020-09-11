@@ -111,8 +111,11 @@ body{
 }
 
 #quote{
-    margin-top: -15px;
+    margin-top: -10px;
     padding: 0;
+    
+    font-family: Spartan;
+    font-size: 26px;
 }
 
 
@@ -165,6 +168,8 @@ body{
     border-radius: 50%;
     position: absolute;
     
+    
+    opacity: 0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 

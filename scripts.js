@@ -74,15 +74,26 @@ function randomQuote(){
     var info = document.getElementById("info");
     var imgLink = document.getElementById("imgLink");
     
-    var photo = document.getElementById("pic");
     
-    //RANDOM num from 0 to __
-    var randNum = Math.floor(Math.random() * 39); 
+    //update THIS number to the number of pics (incl. 0)
+    var numPics = 39;   
+   
+    //picking random # based on # on numPics
+    var randNum = Math.floor(Math.random() * numPics); 
     
     
+    //Setting opacity of all photos to 0 with loop
+    for (i=0; i < numPics; i++){
+        var fadePhoto = document.getElementById(i);
+        fadePhoto.style.opacity = '0';
+    }
     
-    //setting photo based on number
-    photo.src = "images/people/"+randNum+".jpg";
+    
+    //selecting Photo by ID based on randNum
+    var photo = document.getElementById(randNum);
+    
+    //Setting opacity of photo to 1
+    photo.style.opacity = '1';
     
     
     
