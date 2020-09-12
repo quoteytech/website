@@ -1,8 +1,13 @@
+//runs onLoad
 function randPrompt(){
     var prompt = document.getElementById("prompt");
+    var btn = document.getElementById("qBtn");
+    
+    prompt.style.opacity = '1';
+    btn.style.opacity = '1';
     
     //Random num from 0 to 2
-    var randNum = Math.floor(Math.random() * 3);
+    var randNum = Math.floor(Math.random() * 7);
     
     if(randNum == 0){
         prompt.innerHTML = "Looking for inspiration?";
@@ -16,6 +21,21 @@ function randPrompt(){
         prompt.innerHTML = "What'll it be...";
     }
     
+    if(randNum == 3){
+        prompt.innerHTML = "Find a new quote!";
+    }
+    
+    if(randNum == 4){
+        prompt.innerHTML = "Click for a quote!";
+    }
+    
+    if(randNum == 5){
+        prompt.innerHTML = "Motivation incoming...";
+    }
+    
+    if(randNum == 6){
+        prompt.innerHTML = "Hello!";
+    }
 }
 
 
@@ -831,7 +851,7 @@ function randomQuote(){
     if(randNum == 37){
                 
         //Quote
-        quote.innerHTML = "I've missed more than 9,000 shots in my career. I've lost almost 300 games. Twenty-six times I've been trusted to take the game-winning shot and missed. I'’'ve failed over and over and over again in my life. And that is why I succeed.";
+        quote.innerHTML = "I've missed more than 9,000 shots in my career. I've lost almost 300 games. Twenty-six times I've been trusted to take the game-winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.";
         
         //Name
         name.innerHTML = "Michael Jordan";
