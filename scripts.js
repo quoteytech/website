@@ -97,7 +97,7 @@ function randomQuote(){
     
     
     //update THIS number to the number of pics (incl. 0)
-    var numPics = 39;   
+    var numPics = 62;   
    
     //picking random # based on # on numPics
     var randNum = Math.floor(Math.random() * numPics); 
@@ -886,6 +886,472 @@ function randomQuote(){
         name.href = link;
         imgLink.href = link;        
     }
+    
+    
+    //39
+    if(randNum == 39){
+                
+        //Quote
+        quote.innerHTML = "If you wanna live a comfortable life make sure you never love nobody, be selfish and never sacrifice.";
+        
+        //Name
+        name.innerHTML = "Andy Mineo";
+        
+        //Details
+        info.innerHTML = "Andy is an acclaimed hiphop/rap artist from New York. This is a lyric from his hit 'Uncomfortable' which talks about the uncomfortable things that are necessary in life.";
+        
+        //Link
+        var link = "https://www.youtube.com/watch?v=RhJ76rWvlQo";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //40
+    if(randNum == 40){
+                
+        //Quote
+        quote.innerHTML = "I am, somehow, less interested in the weight and convolutions of Einstein’s brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshops.";
+        
+        //Name
+        name.innerHTML = "Stephen Jay Gould";
+        
+        //Details
+        info.innerHTML = "Stephen Jay Gould was an American paleontologist, evolutionary biologist, and historian of science. He was one of the most influential and widely read authors of popular science of his generation.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Stephen_Jay_Gould";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+
+    
+    //41
+    if(randNum == 41){
+                
+        //Quote
+        quote.innerHTML = "Wisdom is the reward you get for a lifetime of listening when you would rather have talked.";
+        
+        //Name
+        name.innerHTML = "Mark Twain";
+        
+        //Details
+        info.innerHTML = "Mark was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the 'greatest humorist [the United States] has produced', and William Faulkner called him 'the father of American literature'.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Mark_Twain";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //42
+    if(randNum == 42){
+                
+        //Quote
+        quote.innerHTML = "Never let the fear of striking out get in your way.";
+        
+        //Name
+        name.innerHTML = "Babe Ruth";
+        
+        //Details
+        info.innerHTML = "Babe Ruth was possibly the greatest professional baseball player ever. His career in Major League Baseball spanned 22 seasons, from 1914 through 1935.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Babe_Ruth";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //43
+    if(randNum == 43){
+                
+        //Quote
+        quote.innerHTML = "Continuous effort, not strength or intelligence, is the key to unlocking our potential.";
+        
+        //Name
+        name.innerHTML = "Winston Churchill";
+        
+        //Details
+        info.innerHTML = "Churchill was a British statesman, army officer, and writer. He was Prime Minister of the United Kingdom from 1940 to 1945, when he led the country to victory in the Second World War, and again from 1951 to 1955.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Winston_Churchill";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    
+    //44
+    if(randNum == 44){
+                
+        //Quote
+        quote.innerHTML = "We are continually faced by great opportunities brilliantly disguised as insoluble problems.";
+        
+        //Name
+        name.innerHTML = "Lee Iacocca";
+        
+        //Details
+        info.innerHTML = "Iacocca was an American automobile executive and legend best known for the development of Ford Mustang and Pinto cars, and for reviving the Chrysler Corporation as its CEO during the 1980s.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Lee_Iacocca";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //45
+    if(randNum == 45){
+                
+        //Quote
+        quote.innerHTML = "Unless someone like you cares a whole awful lot, nothing is going to get better. It's not.";
+        
+        //Name
+        name.innerHTML = "Dr. Seuss";
+        
+        //Details
+        info.innerHTML = "Theodor Seuss Geisel was an American children's author, political cartoonist, illustrator, poet, animator, screenwriter, and filmmaker. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Dr._Seuss";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    //46
+    if(randNum == 46){
+                
+        //Quote
+        quote.innerHTML = "Perseverance is not a long race; it is many short races one after another.";
+        
+        //Name
+        name.innerHTML = "Walter Elliot";
+        
+        //Details
+        info.innerHTML = "Elliot was a British politician of Scotland's Unionist Party prominent in the interwar period. He was elected to the House of Commons of the United Kingdom in 1918, and besides an interval of months in 1923–24, remained in parliament until his death.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Walter_Elliot_(Scottish_politician)";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //47
+    if(randNum == 47){
+                
+        //Quote
+        quote.innerHTML = "Opportunity is missed by most people because it is dressed in overalls and looks like work.";
+        
+        //Name
+        name.innerHTML = "Thomas Edison";
+        
+        //Details
+        info.innerHTML = "Edison was an American inventor and businessman who has been described as America's greatest inventor. He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Thomas_Edison";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //48
+    if(randNum == 48){
+                
+        //Quote
+        quote.innerHTML = "Many of life's failures are people who did not realize how close they were to success when they gave up.";
+        
+        //Name
+        name.innerHTML = "Thomas Edison";
+        
+        //Details
+        info.innerHTML = "Edison was an American inventor and businessman who has been described as America's greatest inventor. He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Thomas_Edison";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //49
+    if(randNum == 49){
+                
+        //Quote
+        quote.innerHTML = "No man knows what he can do until he tries.";
+        
+        //Name
+        name.innerHTML = "Publilius Syrus";
+        
+        //Details
+        info.innerHTML = "Publilius Syrus, was a Latin writer, best known for his sententiae. He was a Syrian who was brought as a slave to Roman Italy. By his wit and talent, Syrus won the favour of his master, who granted him manumission and educated him.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Publilius_Syrus";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //50
+    if(randNum == 50){
+                
+        //Quote
+        quote.innerHTML = "People often say that motivation doesn't last. Well, neither does bathing that's why we recommend it daily.";
+        
+        //Name
+        name.innerHTML = "Zig Ziglar";
+        
+        //Details
+        info.innerHTML = "Hilary Hinton 'Zig' Ziglar was an American author, salesman, and motivational speaker.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Zig_Ziglar";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //51
+    if(randNum == 51){
+                
+        //Quote
+        quote.innerHTML = "You must learn from the mistakes of others. You can't possibly live long enough to make them all yourself.";
+        
+        //Name
+        name.innerHTML = "Sam Levenson";
+        
+        //Details
+        info.innerHTML = "Samuel Levenson was an American humorist, writer, teacher, television host, and journalist.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Sam_Levenson";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //52
+    if(randNum == 52){
+                
+        //Quote
+        quote.innerHTML = "A horse that consistently runs just a second faster than another horse is worth millions of dollars more. Be willing to give that extra effort that separates the winner from the one in second place.";
+        
+        //Name
+        name.innerHTML = "H. Jackson Brown Jr.";
+        
+        //Details
+        info.innerHTML = "Harriett Jackson Brown Jr. is an American author best known for his inspirational book, Life's Little Instruction Book, which was a New York Times bestseller.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/H._Jackson_Brown_Jr.";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //53
+    if(randNum == 53){
+                
+        //Quote
+        quote.innerHTML = "Problems cannot be solved at the same level of awareness that created them.";
+        
+        //Name
+        name.innerHTML = "Albert Einstein";
+        
+        //Details
+        info.innerHTML = "Albert Einstein's name has become a synonym for 'Genius'. Einstein is possibly the most influential scientist of our generation, if not, of all time. Known famously for developing the theory or relativity.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Albert_Einstein";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //54
+    if(randNum == 54){
+                
+        //Quote
+        quote.innerHTML = "It's easy to have faith in yourself and have discipline when you're a winner, when you're number one.  What you've got to have is faith and discipline when you are not yet a winner.";
+        
+        //Name
+        name.innerHTML = "Vince Lombardi";
+        
+        //Details
+        info.innerHTML = "VinceLombardi was an American football coach, and executive in the National Football League. You might also recognize his name from the famous Vince Lombardi Trophy which is awarded to the winner of the Super Bowl.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Vince_Lombardi";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //55
+    if(randNum == 55){
+                
+        //Quote
+        quote.innerHTML = "We must be the change we wish to see in the world.";
+        
+        //Name
+        name.innerHTML = "Mahatma Gandhi";
+        
+        //Details
+        info.innerHTML = "Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Mahatma_Gandhi";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //56
+    if(randNum == 56){
+                
+        //Quote
+        quote.innerHTML = "When I despair, I remember that all throughout history the way of truth and love has always won.  There have been tyrants and murderers and for a time they seem invincible but in the end, they always fall.";
+        
+        //Name
+        name.innerHTML = "Mahatma Gandhi";
+        
+        //Details
+        info.innerHTML = "Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Mahatma_Gandhi";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //57
+    if(randNum == 57){
+                
+        //Quote
+        quote.innerHTML = "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.";
+        
+        //Name
+        name.innerHTML = "Mahatma Gandhi";
+        
+        //Details
+        info.innerHTML = "Maya Angelou was an American poet, memoirist, and civil rights activist. She published seven autobiographies, three books of essays, several books of poetry, and is credited with a list of plays, movies, and television shows spanning over 50 years. She received dozens of awards and more than 50 honorary degrees.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Maya_Angelou";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //58
+    if(randNum == 58){
+                
+        //Quote
+        quote.innerHTML = "Be who you are and say what you feel because those who mind don’t matter and those who matter don't mind.";
+        
+        //Name
+        name.innerHTML = "Dr. Seuss";
+        
+        //Details
+        info.innerHTML = "Theodor Seuss Geisel was an American children's author, political cartoonist, illustrator, poet, animator, screenwriter, and filmmaker. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Dr._Seuss";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //59
+    if(randNum == 59){
+                
+        //Quote
+        quote.innerHTML = "Not everything that can be counted counts, and not everything that counts can be counted.";
+        
+        //Name
+        name.innerHTML = "Albert Einstein";
+        
+        //Details
+        info.innerHTML = "Albert Einstein's name has become a synonym for 'Genius'. Einstein is possibly the most influential scientist of our generation, if not, of all time. Known famously for developing the theory or relativity.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Albert_Einstein";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    
+    //60
+    if(randNum == 60){
+                
+        //Quote
+        quote.innerHTML = "Do, or do not. There is no 'try'.";
+        
+        //Name
+        name.innerHTML = "Yoda";
+        
+        //Details
+        info.innerHTML = "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the instruction of Luke Skywalker, and unlocking the path to immortality.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Yoda";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //61
+    if(randNum == 61){
+                
+        //Quote
+        quote.innerHTML = "If everything seems under control, you're just not going fast enough.";
+        
+        //Name
+        name.innerHTML = "Mario Andretti";
+        
+        //Details
+        info.innerHTML = "Mario Gabriele Andretti is an Italian-born American former racing driver and one of the most successful Americans in the history of the sport. He is one of only two drivers to have won races in Formula One, IndyCar, World Sportscar Championship, and NASCAR. He also won races in midget cars and sprint cars.";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Mario_Andretti";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    
+    
+    
     
     
     
