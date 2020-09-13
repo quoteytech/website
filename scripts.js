@@ -59,8 +59,7 @@ function btnClick() {
         btnDiv.style.top="15%";
         prompt.style.marginBottom = "-30px";
         prompt.style.opacity='0';
-        prompt.style.display='none';
-      
+              
         btnText.style.opacity='0';
         
         setTimeout(function(){
