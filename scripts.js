@@ -1254,7 +1254,7 @@ function randomQuote(){
         quote.innerHTML = "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.";
         
         //Name
-        name.innerHTML = "Mahatma Gandhi";
+        name.innerHTML = "Maya Angelou";
         
         //Details
         info.innerHTML = "Maya Angelou was an American poet, memoirist, and civil rights activist. She published seven autobiographies, three books of essays, several books of poetry, and is credited with a list of plays, movies, and television shows spanning over 50 years. She received dozens of awards and more than 50 honorary degrees.";
