@@ -96,7 +96,7 @@ function randomQuote(){
     
     
     //update THIS number to the number of pics (incl. 0)
-    var numPics = 62;   
+    var numPics = 63;   
    
     //picking random # based on # on numPics
     var randNum = Math.floor(Math.random() * numPics); 
@@ -1342,6 +1342,26 @@ function randomQuote(){
         
         //Link
         var link = "https://en.wikipedia.org/wiki/Mario_Andretti";
+        
+        name.href = link;
+        imgLink.href = link;        
+    }
+    
+    
+    //62
+    if(randNum == 62){
+                
+        //Quote
+        quote.innerHTML = "Why do we fall sir? So that we can learn to pick ourselves up.";
+        
+        //Name
+        name.innerHTML = "Alfred Pennyworth (Batman Begins)";
+        
+        //Details
+        info.innerHTML = "Alfred Pennyworth is a fictional character appearing in comic books published by DC Comics, most commonly in association with the superhero Batman. This quote comes from Christopher Nolan's 'Batman Begins' (2005) and is spoken to a young Bruce Wayne. This was our first ever user submitted quote!";
+        
+        //Link
+        var link = "https://en.wikipedia.org/wiki/Alfred_Pennyworth";
         
         name.href = link;
         imgLink.href = link;        
