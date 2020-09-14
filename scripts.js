@@ -645,7 +645,7 @@ function randomQuote(){
         quote.innerHTML = "It ain't about how hard you hit; it's about how hard you can get hit, and keep moving forward. It's how much you can take, and keep moving forward. That's how winning is done.";
         
         //Name
-        name.innerHTML = "Rocky Balboa";
+        name.innerHTML = "Rocky Balboa (Rocky)";
         
         //Details
         info.innerHTML = "Robert Balboa, is the title character of the Rocky film series. The character was created by Sylvester Stallone, who has also portrayed him in all eight films in the franchise.";
@@ -1315,7 +1315,7 @@ function randomQuote(){
         quote.innerHTML = "Do, or do not. There is no 'try'.";
         
         //Name
-        name.innerHTML = "Yoda";
+        name.innerHTML = "Yoda (Star Wars)";
         
         //Details
         info.innerHTML = "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the instruction of Luke Skywalker, and unlocking the path to immortality.";
